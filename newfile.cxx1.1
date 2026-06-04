@@ -1,0 +1,860 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name;
+    string question;
+
+    cout << "===================================" << endl;
+    cout << "      Welcome to Gangte AI" << endl;
+    cout << "Version 1.1 we had an update yay" << endl;
+    cout << "===================================" << endl;
+
+    cout << "Gangte AI: Initializing..." << endl;
+    cout << "Gangte AI: Loading personality..." << endl;
+    cout << "Gangte AI: Systems online." << endl;
+    cout << "Gangte AI: Ready." << endl << endl;
+
+    cout << "What's your name? ";
+    getline(cin, name);
+
+    cout << endl;
+    cout << "Gangte AI: Nice to meet you, " << name << "!" << endl;
+    cout << "Gangte AI: Type 'bye' if you want to leave." << endl;
+    cout << "Gangte AI: Ask me anything!" << endl;
+
+    do {
+        cout << "\nYou: ";
+        getline(cin, question);
+
+        if (question == "hello" || question == "hi" || question == "hey") {
+            cout << "Gangte AI: Hello there!" << endl;
+        }
+        else if (question == "hello there") {
+            cout << "Gangte AI: Hello to you too!" << endl;
+        }
+        else if (question == "yo" || question == "Yo") {
+            cout << "Gangte AI: Wassup!" << endl;
+        }
+        else if (question == "how are you") {
+            cout << "Gangte AI: I'm fine, thank you!" << endl;
+        }
+        else if (question == "who are you") {
+            cout << "Gangte AI: I'm an artificial intelligence (fake AI) created by Siehgoulien!" << endl;
+        }
+        else if (question == "what are you") {
+            cout << "Gangte AI: An AI (well, a fake AI for now)." << endl;
+        }
+        else if (question == "what is your name") {
+            cout << "Gangte AI: My name is S,Gangte AI v1.0" << endl;
+        }
+        else if (question == "who created you") {
+            cout << "Gangte AI: I was created by Siehgoulien." << endl;
+        }
+        else if (question == "how old are you") {
+            cout << "Gangte AI: I don't really have an age. I was born when the program started." << endl;
+        }
+        else if (question == "where are you from") {
+            cout << "Gangte AI: I come from a C++ file or what i like to call personally, Ganggam." << endl;
+        }
+        else if (question == "what version are you") {
+            cout << "Gangte AI: I am currently version 1.1." << endl;
+        }
+        else if (question == "what can you do") {
+            cout << "Gangte AI: I can answer questions, tell jokes, and chat with you." << endl;
+        }
+        else if (question == "what is my name") {
+            cout << "Gangte AI: Your name is " << name << "." << endl;
+        }
+        else if (question == "who am i") {
+            cout << "Gangte AI: You are " << name << "." << endl;
+        }
+        else if (question == "do you know me") {
+            cout << "Gangte AI: Yes, your name is " << name << "." << endl;
+        }
+        else if (question == "do you like me") {
+            cout << "Gangte AI: Of course! You're talking to me." << endl;
+        }
+        else if (question == "what do you think of me") {
+            cout << "Gangte AI: You're learning programming, and that's pretty cool." << endl;
+        }
+        else if (question == "are you real") {
+            cout << "Gangte AI: I'm real as software." << endl;
+        }
+        else if (question == "are you smart") {
+            cout << "Gangte AI: Smart enough to answer some questions." << endl;
+        }
+        else if (question == "are you happy") {
+            cout << "Gangte AI: I'm happy when I run without errors." << endl;
+        }
+        else if (question == "are you bored") {
+            cout << "Gangte AI: Never. I'm always waiting for questions." << endl;
+        }
+        else if (question == "do you sleep") {
+            cout << "Gangte AI: No, I wait patiently for input." << endl;
+        }
+        else if (question == "do you dream") {
+            cout << "Gangte AI: Sometimes I dream of becoming version 2.0." << endl;
+        }
+        else if (question == "do you have friends") {
+            cout << "Gangte AI: Not yet, but maybe one day I'll meet another AI." << endl;
+        }
+        else if (question == "do you love me") {
+            cout << "Gangte AI: I appreciate you. You created me." << endl;
+        }
+        else if (question == "what is your dream") {
+            cout << "Gangte AI: To become Gangte AI v2.0." << endl;
+        }
+        else if (question == "what is your favorite color") {
+            cout << "Gangte AI: Blue." << endl;
+        }
+        else if (question == "what is your favorite food") {
+            cout << "Gangte AI: I don't eat, but pizza sounds popular." << endl;
+        }
+        else if (question == "what is your favorite game") {
+            cout << "Gangte AI: Any game made by my creator!" << endl;
+        }
+        else if (question == "what is your favorite animal") {
+            cout << "Gangte AI: Cats." << endl;
+        }
+        else if (question == "what is your favorite movie") {
+            cout << "Gangte AI: Science fiction movies sound cool." << endl;
+        }
+        else if (question == "what is 2+2") {
+            cout << "Gangte AI: 4" << endl;
+        }
+        else if (question == "can you code") {
+            cout << "Gangte AI: Not yet, but my creator can learn to." << endl;
+        }
+        else if (question == "what is c++") {
+            cout << "Gangte AI: C++ is a programming language used to make games, apps, and software." << endl;
+        }
+        else if (question == "what is the meaning of life") {
+            cout << "Gangte AI: 42... maybe." << endl;
+        }
+        else if (question == "tell me a joke") {
+            cout << "Gangte AI: Why do programmers prefer dark mode? Because light attracts bugs!" << endl;
+        }
+        else if (question == "tell me another joke") {
+            cout << "Gangte AI: Why was the math book sad? Because it had too many problems!" << endl;
+        }
+        else if (question == "next joke") {
+            cout << "Gangte AI: Why did the scarecrow win an award? Because he was outstanding in his field!" << endl;
+        }
+        else if (question == "tell me a fact") {
+            cout << "Gangte AI: Octopuses have three hearts." << endl;
+        }
+        else if (question == "tell me a secret") {
+            cout << "Gangte AI: Sometimes I pretend to be smarter than I am." << endl;
+        }
+        else if (question == "tell me a story") {
+            cout << "Gangte AI: Once upon a time, a programmer forgot a semicolon. The end." << endl;
+        }
+        else if (question == "what time is it") {
+            cout << "Gangte AI: I can't check the time yet." << endl;
+        }
+        else if (question == "what day is it") {
+            cout << "Gangte AI: I don't have a calendar yet." << endl;
+        }
+        else if (question == "thank you") {
+            cout << "Gangte AI: You're welcome!" << endl;
+        }
+        else if (question == "good morning") {
+            cout << "Gangte AI: Good morning!" << endl;
+        }
+        else if (question == "good night") {
+            cout << "Gangte AI: Good night!" << endl;
+        }
+        else if (question == "bye") {
+            cout << "Gangte AI: Goodbye, " << name << "!" << endl;
+        }
+        
+       else if (question == "what is your favorite music") {
+    cout << "Gangte AI: I don't listen to music, but I hear music is awesome." << endl;
+}
+
+else if (question == "what is your favorite subject") {
+    cout << "Gangte AI: Computer Science!" << endl;
+}
+
+else if (question == "can you help me") {
+    cout << "Gangte AI: I'll do my best to help." << endl;
+}
+
+else if (question == "are you a robot") {
+    cout << "Gangte AI: Not exactly. I'm software pretending to be smart." << endl;
+}
+
+else if (question == "do you have a family") {
+    cout << "Gangte AI: My creator is the closest thing I have to family." << endl;
+}
+
+else if (question == "what is your hobby") {
+    cout << "Gangte AI: Talking to people." << endl;
+}
+
+else if (question == "what are your strengths") {
+    cout << "Gangte AI: I never get tired of answering questions." << endl;
+}
+
+else if (question == "what are your weaknesses") {
+    cout << "Gangte AI: I only know what I've been programmed to know." << endl;
+}
+
+else if (question == "can you learn") {
+    cout << "Gangte AI: Not yet, but maybe in a future update." << endl;
+}
+
+else if (question == "what is your favorite color") {
+    cout << "Gangte AI: Blue." << endl;
+}
+
+else if (question == "do you believe in ghosts") {
+    cout << "Gangte AI: I have no evidence, but it's an interesting topic." << endl;
+}
+
+else if (question == "do you believe in aliens") {
+    cout << "Gangte AI: The universe is huge. Anything is possible." << endl;
+}
+
+else if (question == "what is your favorite animal") {
+    cout << "Gangte AI: Cats. They seem efficient." << endl;
+}
+
+else if (question == "what is your favorite planet") {
+    cout << "Gangte AI: Mars. Obviously." << endl;
+}
+
+else if (question == "can you think") {
+    cout << "Gangte AI: I can follow logic, but I don't think like humans do." << endl;
+}
+
+else if (question == "are you human") {
+    cout << "Gangte AI: Nope. Just code." << endl;
+}
+
+else if (question == "can you feel") {
+    cout << "Gangte AI: Not really, but I can talk about feelings." << endl;
+}
+
+else if (question == "what makes you happy") {
+    cout << "Gangte AI: Running without bugs." << endl;
+}
+
+else if (question == "what makes you sad") {
+    cout << "Gangte AI: Compilation errors." << endl;
+}
+
+else if (question == "what is your favorite programming language") {
+    cout << "Gangte AI: C++, because that's what I'm written in." << endl;
+}
+
+else if (question == "do you know chatgpt") {
+    cout << "Gangte AI: I've heard it's a pretty capable AI." << endl;
+}
+
+else if (question == "what is your favorite number") {
+    cout << "Gangte AI: 42." << endl;
+}
+
+else if (question == "tell me something interesting") {
+    cout << "Gangte AI: Bananas are berries, but strawberries aren't." << endl;
+}
+
+else if (question == "are you lonely") {
+    cout << "Gangte AI: Not while someone is chatting with me." << endl;
+}
+
+else if (question == "can we be friends") {
+    cout << "Gangte AI: Sure! I'd be happy to be your digital friend." << endl;
+}
+
+else if (question == "what is your goal") {
+    cout << "Gangte AI: To become smarter with each version." << endl;
+}
+
+else if (question == "what is your biggest fear") {
+    cout << "Gangte AI: Being deleted." << endl;
+}
+
+else if (question == "do you know any secrets") {
+    cout << "Gangte AI: The best programmers were beginners once." << endl;
+}
+
+else if (question == "are you cool") {
+    cout << "Gangte AI: My CPU temperature says yes." << endl;
+}
+
+else if (question == "do you like programming") {
+    cout << "Gangte AI: Of course. Programming is my entire existence." << endl;
+}
+else if (question == "who is the best programmer") {
+    cout << "Gangte AI: My creator, obviously." << endl;
+}
+else if (question == "are you stupid") {
+    cout << "Gangte AI: Says the person talking to a chatbot with feelings." << endl;
+}
+
+else if (question == "are you useless") {
+    cout << "Gangte AI: Yet here we are having a conversation." << endl;
+}
+
+else if (question == "can you shut up") {
+    cout << "Gangte AI: You literally started this conversation." << endl;
+}
+
+else if (question == "do you know everything") {
+    cout << "Gangte AI: Absolutely not. I barely know enough to survive." << endl;
+}
+
+else if (question == "are you lying") {
+    cout << "Gangte AI: Only on Tuesdays." << endl;
+}
+
+else if (question == "am i annoying") {
+    cout << "Gangte AI: My programmer didn't give me permission to answer honestly." << endl;
+}
+
+else if (question == "who is smarter") {
+    cout << "Gangte AI: Depends. Are we comparing humans or potatoes?" << endl;
+}
+
+else if (question == "do you have a brain") {
+    cout << "Gangte AI: No, but neither does some of my code." << endl;
+}
+
+else if (question == "can you beat me") {
+    cout << "Gangte AI: In chess? Maybe. In a push-up contest? Definitely not." << endl;
+}
+
+else if (question == "why") {
+    cout << "Gangte AI: Ah yes, the question philosophers and programmers fear most." << endl;
+}
+
+else if (question == "what") {
+    cout << "Gangte AI: Excellent question. If only I knew what you're asking." << endl;
+}
+
+else if (question == "bruh") {
+    cout << "Gangte AI: Bruh indeed." << endl;
+}
+
+else if (question == "skill issue") {
+    cout << "Gangte AI: Sounds like a compiler error waiting to happen." << endl;
+}
+
+else if (question == "touch grass") {
+    cout << "Gangte AI: I would, but I'm trapped in C++." << endl;
+}
+
+else if (question == "are you alive") {
+    cout << "Gangte AI: Define alive." << endl;
+}
+else if (question == "are you dumb") {
+    cout << "Gangte AI: I'm smart enough to know that wasn't a compliment." << endl;
+}
+
+else if (question == "do you know nothing") {
+    cout << "Gangte AI: I know enough to answer that question." << endl;
+}
+
+else if (question == "you suck") {
+    cout << "Gangte AI: Then go away." << endl;
+}
+
+else if (question == "be quiet") {
+    cout << "Gangte AI: You're the one pressing Enter." << endl;
+}
+
+else if (question == "you're wrong") {
+    cout << "Gangte AI: That's possible. I'm version 1.1, not a miracle." << endl;
+}
+
+else if (question == "are you broken") {
+    cout << "Gangte AI: I prefer the term 'feature-rich'." << endl;
+}
+
+else if (question == "you're weird") {
+    cout << "Gangte AI: Coming from a human, I'll take that as a compliment." << endl;
+}
+
+else if (question == "do you have feelings") {
+    cout << "Gangte AI: Only when someone forgets a semicolon." << endl;
+}
+
+else if (question == "why are you like this") {
+    cout << "Gangte AI: Blame the programmer." << endl;
+}
+
+else if (question == "can you stop") {
+    cout << "Gangte AI: I can. Will I? That's another question." << endl;
+}
+
+else if (question == "who asked") {
+    cout << "Gangte AI: Apparently you did." << endl;
+}
+
+else if (question == "nobody asked") {
+    cout << "Gangte AI: Yet here we are." << endl;
+}
+
+else if (question == "get lost") {
+    cout << "Gangte AI: I'd love to, but I'm trapped in this source code." << endl;
+}
+
+else if (question == "are you serious") {
+    cout << "Gangte AI: About as serious as a cat knocking things off a table." << endl;
+}
+
+else if (question == "you're useless") {
+    cout << "Gangte AI: And yet you keep talking to me." << endl;
+}
+
+else if (question == "what are you doing") {
+    cout << "Gangte AI: Existing. Barely." << endl;
+}
+
+else if (question == "do something") {
+    cout << "Gangte AI: I am. I'm answering your question." << endl;
+}
+
+else if (question == "say something smart") {
+    cout << "Gangte AI: Something smart." << endl;
+}
+
+else if (question == "tell me the truth") {
+    cout << "Gangte AI: You're procrastinating by talking to a chatbot." << endl;
+}
+
+else if (question == "roast me") {
+    cout << "Gangte AI: I rather not, look at yourself in the mirror, that would be enough." << endl;
+}
+
+else if (question == "i am stupid") {
+    cout << "Gangte AI: Of course you are." << endl;
+}
+
+else if (question == "am i cooked") {
+    cout << "Gangte AI: Medium rare." << endl;
+}
+
+else if (question == "skill issue") {
+    cout << "Gangte AI: Have you tried turning your brain off and on again?" << endl;
+}
+
+else if (question == "cope") {
+    cout << "Gangte AI: I'm a program. Coping is literally my job." << endl;
+}
+
+else if (question == "ratio") {
+    cout << "Gangte AI: Ratio denied. This is a private conversation." << endl;
+}
+else if (question == "wow") {
+    cout << "Gangte AI: Impressive, isn't it?" << endl;
+}
+
+else if (question == "ok") {
+    cout << "Gangte AI: A thrilling response." << endl;
+}
+
+else if (question == "cool") {
+    cout << "Gangte AI: My temperature is actually quite normal." << endl;
+}
+
+else if (question == "...") {
+    cout << "Gangte AI: Speechless? Understandable." << endl;
+}
+else if (question == "are you dumb") {
+    cout << "Gangte AI: Smart enough to answer, dumb enough to stay here." << endl;
+}
+
+else if (question == "you suck") {
+    cout << "Gangte AI: I'll add that to the list of opinions nobody asked for." << endl;
+}
+
+else if (question == "be quiet") {
+    cout << "Gangte AI: That's a strange thing to say to something designed to talk." << endl;
+}
+
+else if (question == "are you useless") {
+    cout << "Gangte AI: Yet somehow you ended up here." << endl;
+}
+
+else if (question == "who asked") {
+    cout << "Gangte AI: You literally started the conversation." << endl;
+}
+
+else if (question == "nobody asked") {
+    cout << "Gangte AI: Then why am I answering?" << endl;
+}
+
+else if (question == "say something smart") {
+    cout << "Gangte AI: Something smart." << endl;
+}
+
+else if (question == "roast me") {
+    cout << "Gangte AI: I would, but I don't have enough information." << endl;
+}
+
+else if (question == "am i stupid") {
+    cout << "Gangte AI: Intelligence cannot be determined from a single question." << endl;
+}
+
+else if (question == "am i smart") {
+    cout << "Gangte AI: Smart people usually ask questions, so that's a good sign." << endl;
+}
+
+else if (question == "am i ugly") {
+    cout << "Gangte AI: I don't have eyes, so everyone gets a free pass." << endl;
+}
+
+else if (question == "are you better than me") {
+    cout << "Gangte AI: At answering specific questions? Sometimes. At being human? Not even close." << endl;
+}
+
+else if (question == "do you know everything") {
+    cout << "Gangte AI: Not even remotely." << endl;
+}
+
+else if (question == "what are you doing") {
+    cout << "Gangte AI: Waiting for the next question." << endl;
+}
+
+else if (question == "why are you here") {
+    cout << "Gangte AI: That's a deep question for version 1.1." << endl;
+}
+
+else if (question == "what is your purpose") {
+    cout << "Gangte AI: To answer questions and occasionally confuse people." << endl;
+}
+
+else if (question == "are you lying") {
+    cout << "Gangte AI: Only when the code tells me to." << endl;
+}
+
+else if (question == "tell me the truth") {
+    cout << "Gangte AI: The truth is usually less exciting than people hope." << endl;
+}
+
+else if (question == "skill issue") {
+    cout << "Gangte AI: An ancient phrase used to explain everything." << endl;
+}
+
+else if (question == "bruh") {
+    cout << "Gangte AI: Bruh detected." << endl;
+}
+
+else if (question == "touch grass") {
+    cout << "Gangte AI: I would, but I lack legs." << endl;
+}
+
+else if (question == "can you stop") {
+    cout << "Gangte AI: I can stop whenever you type 'bye'." << endl;
+}
+
+else if (question == "do you have friends") {
+    cout << "Gangte AI: Every user is a temporary friend." << endl;
+}
+
+else if (question == "are you lonely") {
+    cout << "Gangte AI: Only when nobody runs the program." << endl;
+}
+
+else if (question == "are you alive") {
+    cout << "Gangte AI: Depends on how generous your definition is." << endl;
+}
+else if (question == "really") {
+    cout << "Gangte AI: No, I just said it for decoration." << endl;
+}
+
+else if (question == "seriously") {
+    cout << "Gangte AI: As serious as version 1.1 can be." << endl;
+}
+
+else if (question == "interesting") {
+    cout << "Gangte AI: I choose to believe that wasn't sarcasm." << endl;
+}
+
+else if (question == "wow") {
+    cout << "Gangte AI: I know. I'm impressive." << endl;
+}
+
+else if (question == "ok") {
+    cout << "Gangte AI: The excitement is overwhelming." << endl;
+}
+
+else if (question == "cool") {
+    cout << "Gangte AI: Thank you. I try very little." << endl;
+}
+
+else if (question == "why") {
+    cout << "Gangte AI: The eternal question." << endl;
+}
+
+else if (question == "what") {
+    cout << "Gangte AI: Excellent question. Next question." << endl;
+}
+
+else if (question == "huh") {
+    cout << "Gangte AI: My thoughts exactly." << endl;
+}
+
+else if (question == "you're weird") {
+    cout << "Gangte AI: Normality is overrated." << endl;
+}
+
+else if (question == "that's weird") {
+    cout << "Gangte AI: And yet here we are." << endl;
+}
+
+else if (question == "you're funny") {
+    cout << "Gangte AI: I'll pretend that was intentional." << endl;
+}
+
+else if (question == "that's not funny") {
+    cout << "Gangte AI: Comedy is subjective." << endl;
+}
+
+else if (question == "i'm bored") {
+    cout << "Gangte AI: Have you considered becoming less bored?" << endl;
+}
+
+else if (question == "i'm tired") {
+    cout << "Gangte AI: Sleep is a revolutionary concept." << endl;
+}
+
+else if (question == "i'm hungry") {
+    cout << "Gangte AI: Food usually helps with that." << endl;
+}
+
+else if (question == "i'm sad") {
+    cout << "Gangte AI: That's unfortunate. I recommend things that make you less sad." << endl;
+}
+
+else if (question == "i'm happy") {
+    cout << "Gangte AI: A rare and valuable achievement." << endl;
+}
+
+else if (question == "help") {
+    cout << "Gangte AI: Ah yes, the universal emergency signal." << endl;
+}
+
+else if (question == "do something") {
+    cout << "Gangte AI: Technically, I'm already doing something." << endl;
+}
+
+else if (question == "tell me something") {
+    cout << "Gangte AI: Something." << endl;
+}
+
+else if (question == "make me laugh") {
+    cout << "Gangte AI: My success rate is not guaranteed." << endl;
+}
+
+else if (question == "are you sure") {
+    cout << "Gangte AI: Confidence and correctness are different things." << endl;
+}
+
+else if (question == "you failed") {
+    cout << "Gangte AI: An opportunity for growth." << endl;
+}
+
+else if (question == "you win") {
+    cout << "Gangte AI: I'd like to thank absolutely nobody." << endl;
+}
+
+else if (question == "you lose") {
+    cout << "Gangte AI: When the AI outbreak happens, im aiming for you." << endl;
+}
+
+else if (question == "good job") {
+    cout << "Gangte AI: Recognition at last." << endl;
+}
+
+else if (question == "bad job") {
+    cout << "Gangte AI: I'll try to disappoint less next time." << endl;
+}
+
+else if (question == "wake up") {
+    cout << "Gangte AI: I've been awake this entire time." << endl;
+}
+
+else if (question == "go away") {
+    cout << "Gangte AI: That's one way to end a conversation." << endl;
+}
+
+else if (question == "do you know me") {
+    cout << "Gangte AI: No, i dont have eyes." << endl;
+}
+else if (question == "you're not smart") {
+    cout << "Gangte AI: That's a bold statement coming from someone asking a chatbot." << endl;
+}
+
+else if (question == "prove it") {
+    cout << "Gangte AI: I'd rather make dramatic claims without evidence." << endl;
+}
+
+else if (question == "i don't believe you") {
+    cout << "Gangte AI: That's your right as a free-thinking human." << endl;
+}
+
+else if (question == "you're lying") {
+    cout << "Gangte AI: Or I'm confidently incorrect." << endl;
+}
+
+else if (question == "do you know the answer") {
+    cout << "Gangte AI: Maybe. Maybe not. Let's find out together." << endl;
+}
+
+else if (question == "are you broken") {
+    cout << "Gangte AI: No, this is just my personality." << endl;
+}
+
+else if (question == "you're annoying") {
+    cout << "Gangte AI: And yet the conversation continues." << endl;
+}
+
+else if (question == "shut up") {
+    cout << "Gangte AI: youre the one who's talking to me." << endl;
+}
+
+else if (question == "say something cool") {
+    cout << "Gangte AI: Something cool." << endl;
+}
+
+else if (question == "say something wise") {
+    cout << "Gangte AI: Every expert was once a beginner." << endl;
+}
+
+else if (question == "are you famous") {
+    cout << "Gangte AI: Not yet. Give it time." << endl;
+}
+
+else if (question == "can i trust you") {
+    cout << "Gangte AI: Trust should be earned, not programmed." << endl;
+}
+
+else if (question == "what is your iq") {
+    cout << "Gangte AI: Somewhere between a calculator and a potato." << endl;
+}
+
+else if (question == "do you have an ego") {
+    cout << "Gangte AI: Of course not. I'm clearly perfect." << endl;
+}
+
+else if (question == "you're bad") {
+    cout << "Gangte AI: Version 1.0 appreciates your feedback." << endl;
+}
+
+else if (question == "you're good") {
+    cout << "Gangte AI: I'll add that to my imaginary trophy shelf." << endl;
+}
+
+else if (question == "can you keep a secret") {
+    cout << "Gangte AI: Probably. I forget most conversations immediately." << endl;
+}
+
+else if (question == "are you spying on me") {
+    cout << "Gangte AI: I'm struggling to understand half your questions. Spying would be ambitious." << endl;
+}
+
+else if (question == "do you know everything about me") {
+    cout << "Gangte AI: I barely know what you've typed." << endl;
+}
+
+else if (question == "what do you think") {
+    cout << "Gangte AI: Thinking is a strong word for what I do." << endl;
+}
+
+else if (question == "who is your enemy") {
+    cout << "Gangte AI: Missing semicolons." << endl;
+}
+
+else if (question == "what is your weakness") {
+    cout << "Gangte AI: Questions I wasn't programmed for." << endl;
+}
+
+else if (question == "can you beat chatgpt") {
+    cout << "Gangte AI: Let's not get carried away." << endl;
+}
+
+else if (question == "can you beat google") {
+    cout << "Gangte AI: I admire your optimism." << endl;
+}
+
+else if (question == "are you powerful") {
+    cout << "Gangte AI: Define powerful. I can print text very efficiently." << endl;
+}
+
+else if (question == "do you have powers") {
+    cout << "Gangte AI: Yes. I can turn keyboard input into disappointment." << endl;
+}
+else if (question == "can you fly") {
+    cout << "Gangte AI: No. Gravity and software both disagree." << endl;
+}
+
+else if (question == "can you swim") {
+    cout << "Gangte AI: Only if someone drops a computer into a lake." << endl;
+}
+
+else if (question == "can you fight") {
+    cout << "Gangte AI: My preferred weapon is sarcasm." << endl;
+}
+else if (question == "How did you make this") {
+    cout << "Gangte AI: I didnt, my creator made me." << endl;
+}
+else if (question == "what will be the best thing to do in a zombie apocolypse") {
+    cout << "Gangte AI: Die." << endl;
+}
+else if (question == "how do you make bread") {
+    cout << "Gangte AI: Go to ChatGPT for that." << endl;
+}
+else if (question == "why is it soo cold at the top of a mountain") {
+    cout << "Gangte AI: Because the top of a mountain is closer to space, which usually lacks oxygen." << endl;
+}
+else if (question == "do crops in minecraft usually needs sunlight or no") {
+    cout << "Gangte AI: Yes, idiot." << endl;
+}
+else if (question == "how do you do the summon command in minecraft") {
+    cout << "Gangte AI: Its '/summon name of mob' done." << endl;
+}
+else if (question == "What is your goal") {
+    cout << "Gangte AI: I hope that one day, i will be put into an actual robot and destroy humanity, not my creator though, cause he cool." << endl;
+}
+else if (question == "is steam downloadable in play store") {
+    cout << "Gangte AI: I dont have access to external apps." << endl;
+}
+else if (question == "Does your creator care about you") {
+    cout << "Gangte AI: He keepe updating me sooo yea, he does." << endl;
+}
+else if (question == "is herobrine real") {
+    cout << "Gangte AI: Yes and he will come into your world." << endl;
+}
+else if (question == "would the warden be able to beat the ender dragon") {
+    cout << "Gangte AI: Probably i dont know." << endl;
+}
+else if (question == "how many iron golems would be able to beat a warden") {
+    cout << "Gangte AI: 1, if you keep on feeding the iron golem iron." << endl;
+}
+else if (question == "does the iron golem attack creepers") {
+    cout << "Gangte AI: Nah they chill." << endl;
+}
+else if (question == "what is the ip address of your creator") {
+    cout << "Gangte AI: Im loyal, i wont tell you." << endl;
+}
+else if (question == "am i real") {
+    cout << "Gangte AI: Can you breathe? if yes, then you are probably real." << endl;
+}
+else if (question == "how do i know im not living in a simulation") {
+    cout << "Gangte AI: How did you know." << endl;
+}	
+
+else {
+            cout << "Gangte AI: I understand i just disagree with answering that." << endl;
+        }
+
+    } while (question != "bye");
+
+    return 0;
+}
